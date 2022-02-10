@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width">
+
+<title>Audio Demo 001</title>
+
+<link rel="stylesheet" href="./css/style.css" type="text/css" media="screen" />
+
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="nav">
+<ul>
+<li>
+<a href="./samples.html">Samples</a>
+</li>
+</ul>
+</div>
+
+<div id="header">
+<h1><a href="./">Web Audio API</a></h1>
+</div>
+
+<div id="wrapper">
+<div id="content">
+
+<h2>Play Audio File 1</h2>
+<p>
+<p>
+<h3>Read audio file using ajax, play sound with sliders for start, end, and rate.</h3>
+
+<p>
+<button id="createaudiocontextbutton">Create Audio Context</button>
+
+<p>
+<button id="playbutton">Play</button>
+<button id="stopbutton">Stop</button>
+
+<p>
+Set playback rate
+
+<p>
+<input id="playback-rate-control" type="range" min="0.25" max="3" step="0.05" value="1">
+<span id="playback-rate-value">1.0</span>
+
+<p>
+Set loop start and loop end
+
+<p>
+<input id="loopstart-control" type="range" min="0" max="20" step="1" value="0">
+<span id="loopstart-value">0</span>
+
+<p>
+<input id="loopend-control" type="range" min="0" max="20" step="1" value="0">
+<span id="loopend-value">0</span>
+
+<p>
+<div id="section1">
+</div>
+
+<p>
+<div id="section2">
+</div>
+
+</div>
+</div>
+</div>
+
+<script src="./js/index001.js"></script>
+
+</body>
+
+</html>
